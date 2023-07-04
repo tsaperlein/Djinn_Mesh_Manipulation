@@ -1,0 +1,233 @@
+#version 330 core
+
+in vec3 vertex_position_worldspace;
+in vec3 vertex_position_cameraspace;
+in vec3 vertex_normal_cameraspace;
+in vec2 vertex_UV;
+in vec4 vertex_position_lightspace; // shading
+
+uniform sampler2D shadowMapSampler;
+// Textures
+uniform sampler2D albedoColorSampler;
+uniform sampler2D roughnessColorSampler;
+uniform sampler2D metallicColorSampler;
+
+uniform float alpha = 1.0f;
+uniform int useTexture = 0;
+uniform int useTransparency = 0;
+uniform mat4 V;
+
+uniform vec4 planeCoeffs;
+
+// Phong 
+// light properties
+struct Light {
+    vec4 La;
+    vec4 Ld;
+    vec4 Ls;
+    vec3 lightPosition_worldspace;
+    float power;
+};
+uniform Light light;
+
+// materials
+struct Material {
+    vec4 Ka; 
+    vec4 Kd;
+    vec4 Ks;
+    float Ns; 
+};
+uniform Material mtl;
+
+out vec4 fragmentColor;
+
+vec4 phong(float visibility);
+float ShadowCalculation(vec4 vertexPositionLightspace);
+
+void main() {   
+    float shadow  = ShadowCalculation(vertex_position_lightspace);
+    float visibility = 1.0f - shadow;
+
+    fragmentColor = phong(visibility);
+}
+
+float ShadowCalculation(vec4 vertexPositionLightspace) {
+    // Given the position of a fragment in lightspace coordinates
+    // We sample the depth buffer to see whether or not the fragment is shadowed
+    
+    float shadow;
+
+    // Perspective devide to bring coordinates in range[-1, 1]
+    vec3 projCoords = vertexPositionLightspace.xyz / vertexPositionLightspace.w;
+
+    // Since the depth map values are in range[0, 1]
+    projCoords = projCoords * 0.5 + 0.5;
+
+    // Sampling the closest point in this position from the depth map
+    // REMINDER: Since we are in lightspace coordinates,
+    //           the z parameter is the depth from the camera
+    float closestDepth = texture(shadowMapSampler, projCoords.xy).r;
+
+    // Then we get the depth of the current vertex
+    float currentDepth = projCoords.z;
+
+    // If the currentDepth is larger than the closestDepth, the fragment is shadowed
+    shadow = currentDepth > closestDepth ? 1.0 : 0.0;
+
+    // Correcting the quantization problem
+    float bias = 0.005;
+    shadow = currentDepth - bias > closestDepth ? 1.0 : 0.0;
+
+    // Make the shadow edges more realistic
+    shadow = 0.0;
+    vec2 depthMap_dimensions = textureSize(shadowMapSampler, 0);
+    vec2 texelSize = 1.0 / depthMap_dimensions;
+    for(int x = -1; x <= 1; x++ ){
+        for(int y = -1; y <= 1; y++ ){
+            float pcfDepth = texture(shadowMapSampler, projCoords.xy + vec2(x, y) * texelSize).r;
+            shadow += currentDepth - bias > pcfDepth ? 1.0 : 0.0; 
+        }
+    }
+    shadow /= 9.0;
+
+    if(projCoords.z > 1.0)
+        shadow = 0.0;
+
+    return shadow;
+}
+
+vec4 phong(float visibility)
+{
+    vec4 _Ks = mtl.Ks;
+    vec4 _Kd = mtl.Kd;
+    vec4 _Ka = mtl.Ka;
+    float _Ns = mtl.Ns;
+
+    float alpha1 = alpha;
+
+    // Changing the transparency of the Djinn Mesh
+    if (useTransparency == 1) {
+        float d = dot(planeCoeffs, vec4(vertex_position_worldspace.xyz, 1.0f));
+
+        if (d < -4.0f)
+        {
+            alpha1 = 0.015f * vertex_position_worldspace.y;
+        }
+        else if (d > -4.0f && d < -3.0f)
+        {
+            alpha1 = 0.02f * vertex_position_worldspace.y;
+        }
+        else if (d > -3.0f && d < -2.0f)
+        {
+            alpha1 = 0.022f * vertex_position_worldspace.y;
+        }
+        else if (d > -2.0f && d < -1.0f)
+        {
+            alpha1 = 0.024f * vertex_position_worldspace.y;
+        }
+        else if (d > -1.0f && d < 0.0f)
+        {
+            alpha1 = 0.026f * vertex_position_worldspace.y;
+        }
+        else if (d > 0.0f && d < 0.5f)
+        {
+            alpha1 = 0.028f * vertex_position_worldspace.y;
+        }
+        else if (d > 0.5f && d < 1.0f)
+        {
+            alpha1 = 0.03f * vertex_position_worldspace.y;
+        }
+        else if (d > 1.0f && d < 1.3f)
+        {
+            alpha1 = 0.032f * vertex_position_worldspace.y;
+        }
+        else if (d > 1.3f && d < 1.6f)
+        {
+            alpha1 = 0.034f * vertex_position_worldspace.y;
+        }
+        else if (d > 1.6f && d < 2.0f)
+        {
+            alpha1 = 0.036f * vertex_position_worldspace.y;
+        }
+        else if (d > 2.0f && d < 2.3f)
+        {
+            alpha1 = 0.038f * vertex_position_worldspace.y;
+        }
+        else if (d > 2.3f && d < 2.6f)
+        {
+            alpha1 = 0.04f * vertex_position_worldspace.y;
+        }
+        else if (d > 2.6f && d < 3.0f)
+        {
+            alpha1 = 0.042f * vertex_position_worldspace.y;
+        }
+        else if (d > 3.0f)
+        {
+            alpha1 = 0.044f * vertex_position_worldspace.y;
+        }
+    }
+
+    // use texture for all OBJs, except Djinn and Clouds
+    if (useTexture == 1) {
+        vec4 albedo = vec4(texture(albedoColorSampler, vertex_UV).rgb, alpha1);
+        vec4 metallic = vec4(texture(metallicColorSampler, vertex_UV).rgb, alpha1);
+        vec4 roughness = vec4(texture(roughnessColorSampler, vertex_UV).rgb, alpha1);
+
+        _Ks = roughness + metallic;
+        _Kd = albedo;
+        _Ka = vec4(0.5 * vec3(0.1, 0.1, 0.1), alpha1);
+        _Ns = 10;
+    }
+
+    // Djinn
+    if (useTexture == 2) {
+        vec4 albedo = vec4(texture(albedoColorSampler, vertex_UV).rgb, alpha1);
+        vec4 metallic = vec4(texture(metallicColorSampler, vertex_UV).rgb, alpha1);
+        vec4 roughness = vec4(texture(roughnessColorSampler, vertex_UV).rgb, alpha1);
+
+        _Ks = roughness + metallic;
+        _Kd = albedo + vec4(0.2, 0.2, 0.2, 1.0f);
+        _Ka = vec4(0.5 * vec3(0.1, 0.1, 0.1), alpha1);
+        _Ns = 10;
+    }
+
+    // Clouds
+    if (useTexture == 3) {
+        vec4 albedo = vec4(texture(albedoColorSampler, vertex_UV).rgb, alpha1);
+        vec4 metallic = vec4(texture(metallicColorSampler, vertex_UV).rgb, alpha1);
+        vec4 roughness = vec4(texture(roughnessColorSampler, vertex_UV).rgb, alpha1);
+
+        _Ks = roughness + metallic;
+        _Kd = albedo + vec4(0.4*(0.7 - alpha1), 0.4*(0.7 - alpha1), 0.4*(0.7 - alpha1), alpha1);
+        _Ka = vec4(0.5 * vec3(0.1, 0.1, 0.1), alpha1);
+        _Ns = 10;
+    }
+    
+    // model ambient intensity (Ia)
+    vec4 Ia = light.La * _Ka;
+
+    // model diffuse intensity (Id)
+    vec3 N = normalize(vertex_normal_cameraspace); 
+    vec3 L = normalize((V * vec4(light.lightPosition_worldspace, 1)).xyz - vertex_position_cameraspace);
+    float cosTheta = clamp(dot(L, N), 0, 1);
+    vec4 Id = light.Ld * _Kd * cosTheta; 
+
+    // model specular intensity (Is)
+    vec3 R = reflect(-L, N);
+    vec3 E = normalize(- vertex_position_cameraspace);
+    float cosAlpha = clamp(dot(E, R), 0, 1);
+    float specular_factor = pow(cosAlpha, _Ns);
+    vec4 Is = light.Ls * _Ks * specular_factor;
+
+    //model the light distance effect
+    float distance = length(light.lightPosition_worldspace - vertex_position_worldspace);
+    float distance_sq = distance * distance;
+
+    // final fragment color
+   fragmentColor = vec4(
+        Ia + 
+        visibility * Id * light.power / distance_sq + 
+        visibility * Is * light.power / distance_sq);
+
+    return fragmentColor;
+}

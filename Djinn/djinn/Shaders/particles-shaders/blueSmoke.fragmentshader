@@ -1,0 +1,16 @@
+#version 330 core
+
+out vec4 fragmentColor;
+
+in vec2 UV;
+in float vs_life;
+
+uniform sampler2D texture2;
+
+void main() {
+    vec4 texColor = texture(texture2, UV);
+    // Hack to remove all white color from the png od the blue smoke
+    if (length(texColor.rgb) > 0.99f) discard;
+    // I add vec3(0.05, 0.05, 0.05) to make the blue more light blue
+    fragmentColor = vec4(texColor.rgb + vec3(0.22, 0.22, 0.22) * (vs_life + 0.2f), 1.0f);
+}

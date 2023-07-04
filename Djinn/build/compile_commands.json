@@ -1,0 +1,182 @@
+[
+{
+  "directory": "/Users/tsaperlein/Desktop/DJINN/Djinn/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DGLEW_STATIC -DIMGUI_IMPL_OPENGL_LOADER_GLEW -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/imgui -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/imgui/backends -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/include/GLFW -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glm-0.9.7.1 -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glew-1.13.0/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/Simple-OpenGL-Image-Library/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/tinyxml2/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/tinyobjloader/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/djinn -I/Users/tsaperlein/Desktop/DJINN/Djinn/. -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/include  -std=c++17 -stdlib=libc++ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++17 -o CMakeFiles/imgui.dir/external/imgui/imgui.cpp.o -c /Users/tsaperlein/Desktop/DJINN/Djinn/external/imgui/imgui.cpp",
+  "file": "/Users/tsaperlein/Desktop/DJINN/Djinn/external/imgui/imgui.cpp"
+},
+{
+  "directory": "/Users/tsaperlein/Desktop/DJINN/Djinn/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DGLEW_STATIC -DIMGUI_IMPL_OPENGL_LOADER_GLEW -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/imgui -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/imgui/backends -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/include/GLFW -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glm-0.9.7.1 -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glew-1.13.0/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/Simple-OpenGL-Image-Library/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/tinyxml2/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/tinyobjloader/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/djinn -I/Users/tsaperlein/Desktop/DJINN/Djinn/. -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/include  -std=c++17 -stdlib=libc++ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++17 -o CMakeFiles/imgui.dir/external/imgui/imgui_draw.cpp.o -c /Users/tsaperlein/Desktop/DJINN/Djinn/external/imgui/imgui_draw.cpp",
+  "file": "/Users/tsaperlein/Desktop/DJINN/Djinn/external/imgui/imgui_draw.cpp"
+},
+{
+  "directory": "/Users/tsaperlein/Desktop/DJINN/Djinn/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DGLEW_STATIC -DIMGUI_IMPL_OPENGL_LOADER_GLEW -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/imgui -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/imgui/backends -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/include/GLFW -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glm-0.9.7.1 -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glew-1.13.0/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/Simple-OpenGL-Image-Library/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/tinyxml2/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/tinyobjloader/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/djinn -I/Users/tsaperlein/Desktop/DJINN/Djinn/. -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/include  -std=c++17 -stdlib=libc++ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++17 -o CMakeFiles/imgui.dir/external/imgui/imgui_demo.cpp.o -c /Users/tsaperlein/Desktop/DJINN/Djinn/external/imgui/imgui_demo.cpp",
+  "file": "/Users/tsaperlein/Desktop/DJINN/Djinn/external/imgui/imgui_demo.cpp"
+},
+{
+  "directory": "/Users/tsaperlein/Desktop/DJINN/Djinn/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DGLEW_STATIC -DIMGUI_IMPL_OPENGL_LOADER_GLEW -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/imgui -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/imgui/backends -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/include/GLFW -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glm-0.9.7.1 -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glew-1.13.0/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/Simple-OpenGL-Image-Library/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/tinyxml2/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/tinyobjloader/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/djinn -I/Users/tsaperlein/Desktop/DJINN/Djinn/. -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/include  -std=c++17 -stdlib=libc++ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++17 -o CMakeFiles/imgui.dir/external/imgui/imgui_tables.cpp.o -c /Users/tsaperlein/Desktop/DJINN/Djinn/external/imgui/imgui_tables.cpp",
+  "file": "/Users/tsaperlein/Desktop/DJINN/Djinn/external/imgui/imgui_tables.cpp"
+},
+{
+  "directory": "/Users/tsaperlein/Desktop/DJINN/Djinn/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DGLEW_STATIC -DIMGUI_IMPL_OPENGL_LOADER_GLEW -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/imgui -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/imgui/backends -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/include/GLFW -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glm-0.9.7.1 -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glew-1.13.0/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/Simple-OpenGL-Image-Library/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/tinyxml2/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/tinyobjloader/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/djinn -I/Users/tsaperlein/Desktop/DJINN/Djinn/. -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/include  -std=c++17 -stdlib=libc++ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++17 -o CMakeFiles/imgui.dir/external/imgui/imgui_widgets.cpp.o -c /Users/tsaperlein/Desktop/DJINN/Djinn/external/imgui/imgui_widgets.cpp",
+  "file": "/Users/tsaperlein/Desktop/DJINN/Djinn/external/imgui/imgui_widgets.cpp"
+},
+{
+  "directory": "/Users/tsaperlein/Desktop/DJINN/Djinn/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DGLEW_STATIC -DIMGUI_IMPL_OPENGL_LOADER_GLEW -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/imgui -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/imgui/backends -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/include/GLFW -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glm-0.9.7.1 -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glew-1.13.0/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/Simple-OpenGL-Image-Library/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/tinyxml2/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/tinyobjloader/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/djinn -I/Users/tsaperlein/Desktop/DJINN/Djinn/. -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/include  -std=c++17 -stdlib=libc++ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++17 -o CMakeFiles/imgui.dir/external/imgui/backends/imgui_impl_glfw.cpp.o -c /Users/tsaperlein/Desktop/DJINN/Djinn/external/imgui/backends/imgui_impl_glfw.cpp",
+  "file": "/Users/tsaperlein/Desktop/DJINN/Djinn/external/imgui/backends/imgui_impl_glfw.cpp"
+},
+{
+  "directory": "/Users/tsaperlein/Desktop/DJINN/Djinn/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DGLEW_STATIC -DIMGUI_IMPL_OPENGL_LOADER_GLEW -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/imgui -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/imgui/backends -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/include/GLFW -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glm-0.9.7.1 -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glew-1.13.0/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/Simple-OpenGL-Image-Library/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/tinyxml2/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/tinyobjloader/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/djinn -I/Users/tsaperlein/Desktop/DJINN/Djinn/. -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/include  -std=c++17 -stdlib=libc++ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++17 -o CMakeFiles/imgui.dir/external/imgui/backends/imgui_impl_opengl3.cpp.o -c /Users/tsaperlein/Desktop/DJINN/Djinn/external/imgui/backends/imgui_impl_opengl3.cpp",
+  "file": "/Users/tsaperlein/Desktop/DJINN/Djinn/external/imgui/backends/imgui_impl_opengl3.cpp"
+},
+{
+  "directory": "/Users/tsaperlein/Desktop/DJINN/Djinn/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DGLEW_STATIC -DIMGUI_IMPL_OPENGL_LOADER_GLEW -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/include/GLFW -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glm-0.9.7.1 -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glew-1.13.0/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/Simple-OpenGL-Image-Library/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/tinyxml2/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/tinyobjloader/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/djinn -I/Users/tsaperlein/Desktop/DJINN/Djinn/. -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/imgui -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/imgui/backends  -std=c++17 -stdlib=libc++ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++17 -o CMakeFiles/djinn.dir/djinn/main.cpp.o -c /Users/tsaperlein/Desktop/DJINN/Djinn/djinn/main.cpp",
+  "file": "/Users/tsaperlein/Desktop/DJINN/Djinn/djinn/main.cpp"
+},
+{
+  "directory": "/Users/tsaperlein/Desktop/DJINN/Djinn/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DGLEW_STATIC -DIMGUI_IMPL_OPENGL_LOADER_GLEW -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/include/GLFW -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glm-0.9.7.1 -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glew-1.13.0/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/Simple-OpenGL-Image-Library/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/tinyxml2/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/tinyobjloader/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/djinn -I/Users/tsaperlein/Desktop/DJINN/Djinn/. -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/imgui -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/imgui/backends  -std=c++17 -stdlib=libc++ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++17 -o CMakeFiles/djinn.dir/common/util.cpp.o -c /Users/tsaperlein/Desktop/DJINN/Djinn/common/util.cpp",
+  "file": "/Users/tsaperlein/Desktop/DJINN/Djinn/common/util.cpp"
+},
+{
+  "directory": "/Users/tsaperlein/Desktop/DJINN/Djinn/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DGLEW_STATIC -DIMGUI_IMPL_OPENGL_LOADER_GLEW -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/include/GLFW -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glm-0.9.7.1 -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glew-1.13.0/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/Simple-OpenGL-Image-Library/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/tinyxml2/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/tinyobjloader/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/djinn -I/Users/tsaperlein/Desktop/DJINN/Djinn/. -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/imgui -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/imgui/backends  -std=c++17 -stdlib=libc++ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++17 -o CMakeFiles/djinn.dir/common/shader.cpp.o -c /Users/tsaperlein/Desktop/DJINN/Djinn/common/shader.cpp",
+  "file": "/Users/tsaperlein/Desktop/DJINN/Djinn/common/shader.cpp"
+},
+{
+  "directory": "/Users/tsaperlein/Desktop/DJINN/Djinn/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DGLEW_STATIC -DIMGUI_IMPL_OPENGL_LOADER_GLEW -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/include/GLFW -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glm-0.9.7.1 -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glew-1.13.0/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/Simple-OpenGL-Image-Library/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/tinyxml2/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/tinyobjloader/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/djinn -I/Users/tsaperlein/Desktop/DJINN/Djinn/. -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/imgui -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/imgui/backends  -std=c++17 -stdlib=libc++ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++17 -o CMakeFiles/djinn.dir/common/camera.cpp.o -c /Users/tsaperlein/Desktop/DJINN/Djinn/common/camera.cpp",
+  "file": "/Users/tsaperlein/Desktop/DJINN/Djinn/common/camera.cpp"
+},
+{
+  "directory": "/Users/tsaperlein/Desktop/DJINN/Djinn/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DGLEW_STATIC -DIMGUI_IMPL_OPENGL_LOADER_GLEW -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/include/GLFW -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glm-0.9.7.1 -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glew-1.13.0/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/Simple-OpenGL-Image-Library/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/tinyxml2/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/tinyobjloader/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/djinn -I/Users/tsaperlein/Desktop/DJINN/Djinn/. -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/imgui -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/imgui/backends  -std=c++17 -stdlib=libc++ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++17 -o CMakeFiles/djinn.dir/common/model.cpp.o -c /Users/tsaperlein/Desktop/DJINN/Djinn/common/model.cpp",
+  "file": "/Users/tsaperlein/Desktop/DJINN/Djinn/common/model.cpp"
+},
+{
+  "directory": "/Users/tsaperlein/Desktop/DJINN/Djinn/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DGLEW_STATIC -DIMGUI_IMPL_OPENGL_LOADER_GLEW -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/include/GLFW -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glm-0.9.7.1 -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glew-1.13.0/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/Simple-OpenGL-Image-Library/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/tinyxml2/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/tinyobjloader/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/djinn -I/Users/tsaperlein/Desktop/DJINN/Djinn/. -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/imgui -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/imgui/backends  -std=c++17 -stdlib=libc++ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++17 -o CMakeFiles/djinn.dir/common/texture.cpp.o -c /Users/tsaperlein/Desktop/DJINN/Djinn/common/texture.cpp",
+  "file": "/Users/tsaperlein/Desktop/DJINN/Djinn/common/texture.cpp"
+},
+{
+  "directory": "/Users/tsaperlein/Desktop/DJINN/Djinn/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DGLEW_STATIC -DIMGUI_IMPL_OPENGL_LOADER_GLEW -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/include/GLFW -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glm-0.9.7.1 -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glew-1.13.0/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/Simple-OpenGL-Image-Library/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/tinyxml2/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/tinyobjloader/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/djinn -I/Users/tsaperlein/Desktop/DJINN/Djinn/. -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/imgui -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/imgui/backends  -std=c++17 -stdlib=libc++ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++17 -o CMakeFiles/djinn.dir/common/light.cpp.o -c /Users/tsaperlein/Desktop/DJINN/Djinn/common/light.cpp",
+  "file": "/Users/tsaperlein/Desktop/DJINN/Djinn/common/light.cpp"
+},
+{
+  "directory": "/Users/tsaperlein/Desktop/DJINN/Djinn/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DGLEW_STATIC -DIMGUI_IMPL_OPENGL_LOADER_GLEW -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/include/GLFW -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glm-0.9.7.1 -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glew-1.13.0/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/Simple-OpenGL-Image-Library/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/tinyxml2/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/tinyobjloader/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/djinn -I/Users/tsaperlein/Desktop/DJINN/Djinn/. -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/imgui -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/imgui/backends  -std=c++17 -stdlib=libc++ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++17 -o CMakeFiles/djinn.dir/common/IntParticleEmitter.cpp.o -c /Users/tsaperlein/Desktop/DJINN/Djinn/common/IntParticleEmitter.cpp",
+  "file": "/Users/tsaperlein/Desktop/DJINN/Djinn/common/IntParticleEmitter.cpp"
+},
+{
+  "directory": "/Users/tsaperlein/Desktop/DJINN/Djinn/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DGLEW_STATIC -DIMGUI_IMPL_OPENGL_LOADER_GLEW -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/include/GLFW -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glm-0.9.7.1 -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glew-1.13.0/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/Simple-OpenGL-Image-Library/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/tinyxml2/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/tinyobjloader/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/djinn -I/Users/tsaperlein/Desktop/DJINN/Djinn/. -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/imgui -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/imgui/backends  -std=c++17 -stdlib=libc++ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++17 -o CMakeFiles/djinn.dir/common/SmokeEmitter.cpp.o -c /Users/tsaperlein/Desktop/DJINN/Djinn/common/SmokeEmitter.cpp",
+  "file": "/Users/tsaperlein/Desktop/DJINN/Djinn/common/SmokeEmitter.cpp"
+},
+{
+  "directory": "/Users/tsaperlein/Desktop/DJINN/Djinn/build",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DGLEW_STATIC -DIMGUI_IMPL_OPENGL_LOADER_GLEW -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/include/GLFW -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glm-0.9.7.1 -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glew-1.13.0/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/Simple-OpenGL-Image-Library/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/tinyxml2/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/tinyobjloader/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/djinn -I/Users/tsaperlein/Desktop/DJINN/Djinn/. -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/imgui -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/imgui/backends  -std=c++17 -stdlib=libc++ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++17 -o CMakeFiles/djinn.dir/common/CoinRainEmitter.cpp.o -c /Users/tsaperlein/Desktop/DJINN/Djinn/common/CoinRainEmitter.cpp",
+  "file": "/Users/tsaperlein/Desktop/DJINN/Djinn/common/CoinRainEmitter.cpp"
+},
+{
+  "directory": "/Users/tsaperlein/Desktop/DJINN/Djinn/build/external",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/include/GLFW -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glew-1.13.0/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/tinyxml2/include  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -o CMakeFiles/GLEW_1130.dir/glew-1.13.0/src/glew.c.o -c /Users/tsaperlein/Desktop/DJINN/Djinn/external/glew-1.13.0/src/glew.c",
+  "file": "/Users/tsaperlein/Desktop/DJINN/Djinn/external/glew-1.13.0/src/glew.c"
+},
+{
+  "directory": "/Users/tsaperlein/Desktop/DJINN/Djinn/build/external",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++ -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/include/GLFW -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glew-1.13.0/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/tinyxml2/include  -std=c++17 -stdlib=libc++ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++17 -o CMakeFiles/TINYXML2.dir/tinyxml2/src/tinyxml2.cpp.o -c /Users/tsaperlein/Desktop/DJINN/Djinn/external/tinyxml2/src/tinyxml2.cpp",
+  "file": "/Users/tsaperlein/Desktop/DJINN/Djinn/external/tinyxml2/src/tinyxml2.cpp"
+},
+{
+  "directory": "/Users/tsaperlein/Desktop/DJINN/Djinn/build/external/glfw-3.2.1/src",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/src -I/Users/tsaperlein/Desktop/DJINN/Djinn/build/external/glfw-3.2.1/src  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fPIC -o CMakeFiles/glfw.dir/context.c.o -c /Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/src/context.c",
+  "file": "/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/src/context.c"
+},
+{
+  "directory": "/Users/tsaperlein/Desktop/DJINN/Djinn/build/external/glfw-3.2.1/src",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/src -I/Users/tsaperlein/Desktop/DJINN/Djinn/build/external/glfw-3.2.1/src  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fPIC -o CMakeFiles/glfw.dir/init.c.o -c /Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/src/init.c",
+  "file": "/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/src/init.c"
+},
+{
+  "directory": "/Users/tsaperlein/Desktop/DJINN/Djinn/build/external/glfw-3.2.1/src",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/src -I/Users/tsaperlein/Desktop/DJINN/Djinn/build/external/glfw-3.2.1/src  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fPIC -o CMakeFiles/glfw.dir/input.c.o -c /Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/src/input.c",
+  "file": "/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/src/input.c"
+},
+{
+  "directory": "/Users/tsaperlein/Desktop/DJINN/Djinn/build/external/glfw-3.2.1/src",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/src -I/Users/tsaperlein/Desktop/DJINN/Djinn/build/external/glfw-3.2.1/src  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fPIC -o CMakeFiles/glfw.dir/monitor.c.o -c /Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/src/monitor.c",
+  "file": "/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/src/monitor.c"
+},
+{
+  "directory": "/Users/tsaperlein/Desktop/DJINN/Djinn/build/external/glfw-3.2.1/src",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/src -I/Users/tsaperlein/Desktop/DJINN/Djinn/build/external/glfw-3.2.1/src  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fPIC -o CMakeFiles/glfw.dir/vulkan.c.o -c /Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/src/vulkan.c",
+  "file": "/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/src/vulkan.c"
+},
+{
+  "directory": "/Users/tsaperlein/Desktop/DJINN/Djinn/build/external/glfw-3.2.1/src",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/src -I/Users/tsaperlein/Desktop/DJINN/Djinn/build/external/glfw-3.2.1/src  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fPIC -o CMakeFiles/glfw.dir/window.c.o -c /Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/src/window.c",
+  "file": "/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/src/window.c"
+},
+{
+  "directory": "/Users/tsaperlein/Desktop/DJINN/Djinn/build/external/glfw-3.2.1/src",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/src -I/Users/tsaperlein/Desktop/DJINN/Djinn/build/external/glfw-3.2.1/src  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fPIC -o CMakeFiles/glfw.dir/cocoa_init.m.o -c /Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/src/cocoa_init.m",
+  "file": "/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/src/cocoa_init.m"
+},
+{
+  "directory": "/Users/tsaperlein/Desktop/DJINN/Djinn/build/external/glfw-3.2.1/src",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/src -I/Users/tsaperlein/Desktop/DJINN/Djinn/build/external/glfw-3.2.1/src  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fPIC -o CMakeFiles/glfw.dir/cocoa_joystick.m.o -c /Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/src/cocoa_joystick.m",
+  "file": "/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/src/cocoa_joystick.m"
+},
+{
+  "directory": "/Users/tsaperlein/Desktop/DJINN/Djinn/build/external/glfw-3.2.1/src",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/src -I/Users/tsaperlein/Desktop/DJINN/Djinn/build/external/glfw-3.2.1/src  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fPIC -o CMakeFiles/glfw.dir/cocoa_monitor.m.o -c /Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/src/cocoa_monitor.m",
+  "file": "/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/src/cocoa_monitor.m"
+},
+{
+  "directory": "/Users/tsaperlein/Desktop/DJINN/Djinn/build/external/glfw-3.2.1/src",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/src -I/Users/tsaperlein/Desktop/DJINN/Djinn/build/external/glfw-3.2.1/src  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fPIC -o CMakeFiles/glfw.dir/cocoa_window.m.o -c /Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/src/cocoa_window.m",
+  "file": "/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/src/cocoa_window.m"
+},
+{
+  "directory": "/Users/tsaperlein/Desktop/DJINN/Djinn/build/external/glfw-3.2.1/src",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/src -I/Users/tsaperlein/Desktop/DJINN/Djinn/build/external/glfw-3.2.1/src  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fPIC -o CMakeFiles/glfw.dir/cocoa_time.c.o -c /Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/src/cocoa_time.c",
+  "file": "/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/src/cocoa_time.c"
+},
+{
+  "directory": "/Users/tsaperlein/Desktop/DJINN/Djinn/build/external/glfw-3.2.1/src",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/src -I/Users/tsaperlein/Desktop/DJINN/Djinn/build/external/glfw-3.2.1/src  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fPIC -o CMakeFiles/glfw.dir/posix_tls.c.o -c /Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/src/posix_tls.c",
+  "file": "/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/src/posix_tls.c"
+},
+{
+  "directory": "/Users/tsaperlein/Desktop/DJINN/Djinn/build/external/glfw-3.2.1/src",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -D_GLFW_USE_CONFIG_H -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/include -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/src -I/Users/tsaperlein/Desktop/DJINN/Djinn/build/external/glfw-3.2.1/src  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fPIC -o CMakeFiles/glfw.dir/nsgl_context.m.o -c /Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/src/nsgl_context.m",
+  "file": "/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/src/nsgl_context.m"
+},
+{
+  "directory": "/Users/tsaperlein/Desktop/DJINN/Djinn/build/external/Simple-OpenGL-Image-Library",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/include/GLFW -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glew-1.13.0/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/System/Library/Frameworks -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/Simple-OpenGL-Image-Library/include  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -o CMakeFiles/SOIL.dir/src/SOIL.c.o -c /Users/tsaperlein/Desktop/DJINN/Djinn/external/Simple-OpenGL-Image-Library/src/SOIL.c",
+  "file": "/Users/tsaperlein/Desktop/DJINN/Djinn/external/Simple-OpenGL-Image-Library/src/SOIL.c"
+},
+{
+  "directory": "/Users/tsaperlein/Desktop/DJINN/Djinn/build/external/Simple-OpenGL-Image-Library",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/include/GLFW -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glew-1.13.0/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/System/Library/Frameworks -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/Simple-OpenGL-Image-Library/include  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -o CMakeFiles/SOIL.dir/src/image_DXT.c.o -c /Users/tsaperlein/Desktop/DJINN/Djinn/external/Simple-OpenGL-Image-Library/src/image_DXT.c",
+  "file": "/Users/tsaperlein/Desktop/DJINN/Djinn/external/Simple-OpenGL-Image-Library/src/image_DXT.c"
+},
+{
+  "directory": "/Users/tsaperlein/Desktop/DJINN/Djinn/build/external/Simple-OpenGL-Image-Library",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/include/GLFW -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glew-1.13.0/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/System/Library/Frameworks -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/Simple-OpenGL-Image-Library/include  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -o CMakeFiles/SOIL.dir/src/image_helper.c.o -c /Users/tsaperlein/Desktop/DJINN/Djinn/external/Simple-OpenGL-Image-Library/src/image_helper.c",
+  "file": "/Users/tsaperlein/Desktop/DJINN/Djinn/external/Simple-OpenGL-Image-Library/src/image_helper.c"
+},
+{
+  "directory": "/Users/tsaperlein/Desktop/DJINN/Djinn/build/external/Simple-OpenGL-Image-Library",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glfw-3.2.1/include/GLFW -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/glew-1.13.0/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/System/Library/Frameworks -I/Users/tsaperlein/Desktop/DJINN/Djinn/external/Simple-OpenGL-Image-Library/include  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -o CMakeFiles/SOIL.dir/src/stb_image_aug.c.o -c /Users/tsaperlein/Desktop/DJINN/Djinn/external/Simple-OpenGL-Image-Library/src/stb_image_aug.c",
+  "file": "/Users/tsaperlein/Desktop/DJINN/Djinn/external/Simple-OpenGL-Image-Library/src/stb_image_aug.c"
+}
+]
