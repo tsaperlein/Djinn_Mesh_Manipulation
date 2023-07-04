@@ -1,2 +1,0 @@
-# Djinn
-Djinn Mesh Manipulation
